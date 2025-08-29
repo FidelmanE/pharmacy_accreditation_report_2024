@@ -1,1 +1,1 @@
-Uses MARC and KBART metadata to assemble count of currently held and currently subscribed serials including OA as well as purchased serials.
+Uses MARC and KBART metadata from OCLC's WorldShare Management Services (WMS) to assemble counts of print serials on Pharmacy-relevant subjects currently held at WVU and at HSL, and counts of electronic serials on Pharmacy-relevant subjects, to which WVU is currently subscribed, including OA as well as purchased titles.

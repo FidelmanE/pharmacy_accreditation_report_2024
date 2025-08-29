@@ -1,4 +1,0 @@
-import pandas as pd
-from google.colab import drive
-drive.mount('/content/drive/')
-drive.mount("/content/drive/", force_remount=True)

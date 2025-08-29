@@ -5,3 +5,6 @@ drive.mount("/content/drive/", force_remount=True)
 !ls
 PrintMARC = pd.read_table('/content/drive/<Insert Filepath>/PrintPharmacy202405.txt', header=0, delimiter='\t', low_memory=False, encoding = 'ISO-8859-1')
 list(PrintMARC.columns.values)
+ElectronicMARC = pd.read_table('/content/drive/<Insert Filepath>/ElectronicPharmacy202405.txt', header=0, delimiter='\t', low_memory=False, encoding = 'ISO-8859-1')
+list(ElectronicMARC.columns.values)
+KBART = pd.read_table('/content/drive/<Insert Filepath>/Kbart.txt', header=0, delimiter='\t', low_memory=False)
